@@ -1,0 +1,140 @@
+nav {
+    margin: 0;
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid white;
+    z-index: 1;
+    background-color: black;
+  }
+
+  nav ul {
+    margin-right: 5px;
+    padding-top: 5px;
+  }
+  
+  nav ul li {
+    display: inline;
+    float: right;
+  }
+  
+  nav ul li a {
+    margin-left: 10px;
+    color: white;
+}
+
+#logo {
+    position: absolute;
+  left: 0px;
+  top: 8px;
+}
+
+#logo img {
+    height: 50px;
+  }
+
+body { 
+   font-family: Helvetica;
+   font-size: 22px;
+   color: seashell;
+   background-color: black;
+   opacity: 0.9;
+   text-align: center;
+}
+
+p { 
+    color: white;
+    font-size: 20px;
+ }
+
+.breadcrumb > li { 
+   text-decoration: underline;
+   display: inline;
+   border-bottom: 1px solid seashell;
+}
+
+.banner { 
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  background-size: cover;
+  position: relative;
+  top: 70px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+ }
+ 
+
+.board { 
+    background-color: black;
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.8;
+ }
+
+ .item img {
+    width: 300px;
+    height: 200px;
+  }
+ 
+.locations { 
+  background-image: 
+    url ("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  top: 70px;
+ }
+
+ .locations-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.loc-items {
+ background-color: black;
+  opacity: 0.8;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+
+ h5,
+ h6 { 
+    height: 200px;
+    text-align: center;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+ }
+
+ footer {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+  }
+
+  .dummy-div {
+    height: 200px;
+  }
